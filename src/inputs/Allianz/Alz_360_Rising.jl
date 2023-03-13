@@ -1,6 +1,6 @@
 using JSON3, JSON, CSV, DataFrames
 
-prd = copy(JSON3.read(JSON.json(CSV.File("input/Allianz/Alz_360_Rising.csv") |> DataFrame)))
+prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/Allianz/Alz_360_Rising.csv") |> DataFrame)))
 
 gf = Dict(:Growth_Function => :alzmult)
 yf = Dict(:Income_Function => :alzretn)
@@ -11,8 +11,4 @@ s[6:end] .+= 1.0
 s = Dict(:Rollup => s)
 w = Dict(:W => 0.056)
 
-alz_360_rising = Dict(:alz_360_rising => merge(prd, gf, yf, f, s, w))
-
-open("output/alz_360_rising.json", "w") do io
-    JSON3.pretty(io, alz_360_rising)
-end
+Alz_360_Rising = Dict(:Alz_360_Rising => merge(prd, gf, yf, f, s, w))
