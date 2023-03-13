@@ -6,7 +6,6 @@ gf = Dict(:Growth_Function => :alzmult)
 yf = Dict(:Income_Function => :alzmult)
 f = Dict(:Fee => 0.0)
 s = zeros(length(alz_222[:Income])) .+ 1.5
-s[1] = 1.35
 s = Dict(:Rollup => s)
 w = Dict(:W => 0.05)
 
