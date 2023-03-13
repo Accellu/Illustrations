@@ -10,7 +10,7 @@ s[1] = 1.35
 s = Dict(:Rollup => s)
 w = Dict(:W => 0.05)
 
-alz_222 = Dict(:alz_222 => merge(alz_222, gf, yf, f, s, w, age))
+alz_222 = Dict(:alz_222 => merge(alz_222, gf, yf, f, s, w))
 
 open("output/alz_222.json", "w") do io
     JSON3.pretty(io, alz_222)
