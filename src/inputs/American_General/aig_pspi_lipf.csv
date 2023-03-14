@@ -1,4 +1,4 @@
-﻿Year,Age,Return,Account,Surrender,Benefit,Income
+﻿Year,Age,Interest,Account,Surrender,Benefit,Income
 0,60,0,100000,91000,100000,0
 1,61,0.0446,103261,94800,109000,0
 2,62,0.06,108159,100278,118000,0
