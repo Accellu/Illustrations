@@ -3,7 +3,7 @@ using JSON3, JSON, CSV, DataFrames
 prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/Allianz/Alz_Benefit_Control_Accelerated.csv") |> DataFrame)))
 
 gf = Dict(:Growth_Function => :bc_multiple)
-yf = Dict(:Income_Function => :life_multiple)
+yf = Dict(:Income_Function => :bc_multiple)
 f = Dict(:Fee => 0.0)
 s = zeros(length(prd[:Income]))
 s[1:4] .+= 2.5

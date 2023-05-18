@@ -702,7 +702,7 @@
             1.5,
             1.5
         ],
-        "Income_Function": "life_multiple",
+        "Income_Function": "bc_multiple",
         "W": 0.04
     },
     "Alz_360_Rising": {
