@@ -369,7 +369,7 @@
         "W": 0.061
     },
     "Alz_Benefit_Control_Accelerated": {
-        "Growth_Function": "multiple",
+        "Growth_Function": "bc_multiple",
         "Benefit": [
             132000,
             151800,
