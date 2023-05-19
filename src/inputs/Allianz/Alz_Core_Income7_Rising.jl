@@ -4,7 +4,7 @@ prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/Allianz/Alz_Core_Income_7_R
 
 gf = Dict(:Growth_Function => :account)
 yf = Dict(:Income_Function => :life_return)
-rf = Dict(:Income_Function => :cap_floor)
+rf = Dict(:Return_Function => :cap_floor)
 f = Dict(:Fee => 0.0125)
 s = zeros(length(prd[:Income]))
 s[1:5] .+= 1.0
