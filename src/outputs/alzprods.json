@@ -1,5 +1,6 @@
 {
     "Alz_IAI_Perf_Rising": {
+        "Buffer": 0.1,
         "Return_Function": "cap_buff",
         "Schedule": [
             1,
@@ -403,6 +404,7 @@
         "W": 0.0615
     },
     "Alz_IAI_prec_Rising": {
+        "Buffer": 0.1,
         "Return_Function": "trig_buff",
         "Schedule": [
             1,
@@ -5881,6 +5883,7 @@
         ]
     },
     "Alz_IAI_prec_Level": {
+        "Buffer": 0.1,
         "Return_Function": "trig_buff",
         "Schedule": [
             1,
@@ -6284,6 +6287,7 @@
         "W": 0.0745
     },
     "Alz_IAI_perf_Level": {
+        "Buffer": 0.1,
         "Return_Function": "cap_buff",
         "Schedule": [
             1,
