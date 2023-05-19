@@ -8,6 +8,6 @@ rf = Dict(:Income_Function => :trig_buff)
 f = Dict(:Fee => 0.0195)
 s = zeros(length(prd[:Income]))
 s = Dict(:Rollup => s)
-w = Dict(:W => 0.0745)
+w = Dict(:W => 0.0615)
 
 Alz_IAI_prec_Rising = Dict(:Alz_IAI_prec_Rising => merge(prd, gf, yf, f, s, w, rf))
