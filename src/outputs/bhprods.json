@@ -1,5 +1,8 @@
 {
     "bh_slpp_mg": {
+        "Fees": {
+            "rider": 0.015
+        },
         "Return_Function": "cap_buff",
         "Schedule": [
             1,
@@ -101,7 +104,6 @@
             0,
             0
         ],
-        "Fee": 0.015,
         "Surrender": [
             100000,
             87545,
@@ -436,6 +438,9 @@
         "W": 0.05
     },
     "bh_slpp_m": {
+        "Fees": {
+            "rider": 0.015
+        },
         "Return_Function": "cap_buff",
         "Schedule": [
             1,
@@ -537,7 +542,6 @@
             0,
             0
         ],
-        "Fee": 0.015,
         "Surrender": [
             100000,
             87545,
