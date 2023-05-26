@@ -504,7 +504,7 @@
             1,
             1
         ],
-        "Growth_Function": "simple",
+        "Growth_Function": "protected_account",
         "Cash": [
             100000,
             104850,
