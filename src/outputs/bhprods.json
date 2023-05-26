@@ -1,6 +1,6 @@
 {
     "bh_slpp_mg": {
-        "rider": 0.015,
+        "fee": 0.015,
         "W": 0.05,
         "Return_Function": "cap_buff",
         "Schedule": [
@@ -869,6 +869,6 @@
             0
         ],
         "Income_Function": "level",
-        "rider": 0.015
+        "fee": 0.015
     }
 }

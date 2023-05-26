@@ -5,7 +5,7 @@ prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/Brighthouse/Shield_Level_Pa
 gf = Dict(:Growth_Function => :protected_account)
 yf = Dict(:Income_Function => :level)
 rf = Dict(:Return_Function => :cap_buff)
-f = Dict(:rider => 0.015)
+f = Dict(:fee => 0.015)
 s = Dict(:Rollup => zeros(length(prd[:Account])))
 w = Dict(:W => 0.05)
 
