@@ -9,4 +9,4 @@ f = Dict(:Fees => Dict([:account, :rider] .=> [0.0069, 0.015]))
 s = Dict(:Rollup => zeros(length(prd[:Rollup])))
 w = Dict(:W => 0.05)
 
-bh_slpp_m = Dict(:bh_slpp_m => merge(prd, gf, yf, f, s, w, rf))
+sci_l = Dict(:sci_l => merge(prd, gf, yf, f, s, w, rf))
