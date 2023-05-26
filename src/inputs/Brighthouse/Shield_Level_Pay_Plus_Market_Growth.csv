@@ -1,4 +1,4 @@
-﻿Year,Age,Returns,Interest,Schedule,Withdrawal,Rollup,Account,Base,Cash,Surrender,Income,Death Benefit
+﻿Year,Age,Returns,Interest,Schedule,Withdrawal,Rollup,Account,Benefit,Cash,Surrender,Income,Death Benefit
 0,60,0,0,1,0,0,100000,100000,100000,100000,0,100000
 1,61,0.24,0.18,0.9,0.05,0.05,116500,116500,104850,87545,0,116500
 2,62,0.06,0.06,0.9,0.05,0.05,121743,121743,109568,87482,0,121743
