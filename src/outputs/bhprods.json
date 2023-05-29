@@ -37,7 +37,7 @@
             1,
             1
         ],
-        "Growth_Function": "bh_simple",
+        "Growth_Function": "simple",
         "Benefit": [
             100000,
             116500,
@@ -434,7 +434,7 @@
             0,
             0
         ],
-        "Income_Function": "bh_level",
+        "Income_Function": "level",
         "W": 0.05
     },
     "bh_slpp_m": {
