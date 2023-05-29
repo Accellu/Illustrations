@@ -882,7 +882,6 @@
             "allocation": 0.0051,
             "rider": 0.0135
         },
-        "Return_Function": "weighted_returns",
         "Schedule": [
             1,
             0.9,
@@ -1265,7 +1264,6 @@
             "allocation": 0.0051,
             "rider": 0.0135
         },
-        "Return_Function": "weighted_returns",
         "Schedule": [
             1,
             0.9,
