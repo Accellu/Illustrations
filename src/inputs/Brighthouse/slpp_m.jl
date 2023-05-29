@@ -2,8 +2,8 @@ using JSON3, JSON, CSV, DataFrames
 
 prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/Brighthouse/Shield_Level_Pay_Plus_Market.csv") |> DataFrame)))
 
-gf = Dict(:Growth_Function => :protected_account)
-yf = Dict(:Income_Function => :level)
+gf = Dict(:Growth_Function => :bh_protected_account)
+yf = Dict(:Income_Function => :bh_level)
 rf = Dict(:Return_Function => :cap_buff)
 f = Dict(:Fees => Dict(:rider => 0.015))
 s = Dict(:Rollup => zeros(length(prd[:Account])))
