@@ -475,7 +475,7 @@
             1,
             1
         ],
-        "Growth_Function": "bh_protected_account",
+        "Growth_Function": "protected_account",
         "Benefit": [
             100000,
             116500,
@@ -839,7 +839,7 @@
             0,
             0
         ],
-        "Income_Function": "bh_level",
+        "Income_Function": "level",
         "Rollup": [
             0,
             0,
@@ -913,7 +913,7 @@
             1,
             1
         ],
-        "Growth_Function": "bh_compound",
+        "Growth_Function": "compound",
         "Surrender": [
             100000,
             95202,
@@ -1255,7 +1255,7 @@
             0,
             0
         ],
-        "Income_Function": "bh_drop"
+        "Income_Function": "drop"
     },
     "bh_fcal": {
         "W": 0.05,
@@ -1295,7 +1295,7 @@
             1,
             1
         ],
-        "Growth_Function": "bh_compound",
+        "Growth_Function": "compound",
         "Surrender": [
             100000,
             95202,
@@ -1637,6 +1637,6 @@
             0,
             0
         ],
-        "Income_Function": "bh_level"
+        "Income_Function": "level"
     }
 }
