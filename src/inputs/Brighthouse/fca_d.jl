@@ -6,7 +6,7 @@ gf = Dict(:Growth_Function => :bh_compound)
 yf = Dict(:Income_Function => :bh_level)
 #rf = Dict(:Return_Function => :weighted_returns)
 f = Dict(:Fees => merge(Dict(:account => 0.013), Dict(:rider => 0.0135), Dict(:allocation => 0.0051)))
-s = Dict(:Rollup => zeros(length(prd[:Account])))
+s = Dict(:Rollup => prd[:Rollup])
 w = Dict(:W => 0.05)
 
 bh_fcal = Dict(:bh_fcal => merge(prd, gf, yf, f, s, w))
