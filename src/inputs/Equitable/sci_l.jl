@@ -8,5 +8,6 @@ rf = Dict(:Return_Function => :cap_buff)
 f = Dict(:Fees => Dict([:account, :rider] .=> [0.0069, 0.015]))
 s = Dict(:Rollup => prd[:Rollup])
 w = Dict(:W => 0.05)
+inc = Dict(:inc => 0.001)
 
-sci_l = Dict(:sci_l => merge(prd, gf, yf, f, s, w, rf))
+sci_l = Dict(:sci_l => merge(prd, gf, yf, f, s, w, rf, inc))
