@@ -39,7 +39,7 @@
             1,
             1
         ],
-        "Growth_Function": "simple_boost",
+        "Growth_Function": "equitable_simple",
         "Benefit": [
             100000,
             118310,
@@ -403,7 +403,7 @@
             0,
             0
         ],
-        "Income_Function": "drop",
+        "Income_Function": "equitable_drop",
         "W": 0.05
     },
     "sci_l": {
@@ -446,7 +446,7 @@
             1,
             1
         ],
-        "Growth_Function": "simple_boost",
+        "Growth_Function": "equitable_boost",
         "Benefit": [
             100000,
             118310,
@@ -810,7 +810,7 @@
             0,
             0
         ],
-        "Income_Function": "level",
+        "Income_Function": "equitable_level",
         "W": 0.05
     }
 }
