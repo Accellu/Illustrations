@@ -2,8 +2,8 @@ using JSON3, JSON, CSV, DataFrames
 
 prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/Brighthouse/Flex_Choice_Access_Level.csv") |> DataFrame)))
 
-gf = Dict(:Growth_Function => :compound)
-yf = Dict(:Income_Function => :level)
+gf = Dict(:Growth_Function => :brighthouse_compound)
+yf = Dict(:Income_Function => :brighthouse_level)
 #rf = Dict(:Return_Function => :weighted_returns)
 f = Dict(:Fees => merge(Dict(:account => 0.013), Dict(:rider => 0.0135), Dict(:allocation => 0.0051)))
 s = Dict(:Rollup => prd[:Rollup])
