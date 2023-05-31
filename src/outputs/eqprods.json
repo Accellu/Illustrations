@@ -446,7 +446,7 @@
             1,
             1
         ],
-        "Growth_Function": "equitable_boost",
+        "Growth_Function": "equitable_simple",
         "Benefit": [
             100000,
             118310,
