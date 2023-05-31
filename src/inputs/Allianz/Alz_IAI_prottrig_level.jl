@@ -2,8 +2,8 @@ using JSON3, JSON, CSV, DataFrames
 
 prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/Allianz/alz_iai_prottrig_level.csv") |> DataFrame)))
 
-gf = Dict(:Growth_Function => :Allianz_account)
-yf = Dict(:Income_Function => :Allianz_level)
+gf = Dict(:Growth_Function => :allianz_account)
+yf = Dict(:Income_Function => :allianz_level)
 rfg = Dict(:Return_Function => :trig_floor)
 rfy = Dict(:Income_Return_Function => :trig_floor)
 f = Dict(:Fees => Dict(:account => 0.0195))

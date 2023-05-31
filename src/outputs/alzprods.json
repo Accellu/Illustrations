@@ -37,7 +37,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "cap_floor",
         "Surrender": [
             100000,
@@ -336,7 +336,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_return",
+        "Income_Function": "allianz_return",
         "Rollup": [
             0,
             0,
@@ -410,7 +410,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "trig_floor",
         "Surrender": [
             100000,
@@ -709,7 +709,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_return",
+        "Income_Function": "allianz_return",
         "Rollup": [
             0,
             0,
@@ -783,7 +783,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "trig_floor",
         "Surrender": [
             100000,
@@ -1082,7 +1082,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_level",
+        "Income_Function": "allianz_level",
         "Rollup": [
             0,
             0,
@@ -1156,7 +1156,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "cap_floor",
         "Surrender": [
             100000,
@@ -1455,7 +1455,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_level",
+        "Income_Function": "allianz_level",
         "Rollup": [
             0,
             0,
@@ -1529,7 +1529,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "cap_floor",
         "Surrender": [
             100000,
@@ -1828,7 +1828,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_level",
+        "Income_Function": "allianz_level",
         "Rollup": [
             0,
             0,
@@ -1902,7 +1902,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "trig_floor",
         "Surrender": [
             100000,
@@ -2201,7 +2201,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_return",
+        "Income_Function": "allianz_return",
         "Rollup": [
             0,
             0,
@@ -2275,7 +2275,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "trig_floor",
         "Surrender": [
             100000,
@@ -2574,7 +2574,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_level",
+        "Income_Function": "allianz_level",
         "Rollup": [
             0,
             0,
@@ -2648,7 +2648,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "cap_floor",
         "Surrender": [
             100000,
@@ -2947,7 +2947,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_return",
+        "Income_Function": "allianz_return",
         "Rollup": [
             0,
             0,
@@ -3021,7 +3021,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "cap_floor",
         "Surrender": [
             100000,
@@ -3320,7 +3320,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_level",
+        "Income_Function": "allianz_level",
         "Rollup": [
             0,
             0,
@@ -3394,7 +3394,7 @@
             1,
             1
         ],
-        "Growth_Function": "Allianz_account",
+        "Growth_Function": "allianz_account",
         "Income_Return_Function": "cap_floor",
         "Surrender": [
             100000,
@@ -3693,7 +3693,7 @@
             0,
             0
         ],
-        "Income_Function": "Allianz_return",
+        "Income_Function": "allianz_return",
         "Rollup": [
             0,
             0,
