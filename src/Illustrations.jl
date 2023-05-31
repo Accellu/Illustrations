@@ -2,10 +2,10 @@ module Illustrations
 
 using Glob, JSON3
 
-alzprods = reduce(merge, include.(replace.(readdir(glob"*.jl", "src/inputs/Allianz"), r"src/" => "")))
-bhprods = reduce(merge, include.(replace.(readdir(glob"*.jl", "src/inputs/Brighthouse/"), r"src/" => "")))
-eqprods = reduce(merge, include.(replace.(readdir(glob"*.jl", "src/inputs/Equitable/"), r"src/" => "")))
-aigprods = reduce(merge, include.(replace.(readdir(glob"*.jl", "src/inputs/American_General"), r"src/" => "")))
+alzprods = reduce(merge, include.(replace.(readdir(glob"*.jl", "src/inputs/RILAs/Allianz"), r"src/" => "")))
+bhprods = reduce(merge, include.(replace.(readdir(glob"*.jl", "src/inputs/RILAs/Brighthouse/"), r"src/" => "")))
+eqprods = reduce(merge, include.(replace.(readdir(glob"*.jl", "src/inputs/RILAs/Equitable/"), r"src/" => "")))
+aigprods = reduce(merge, include.(replace.(readdir(glob"*.jl", "VAs/src/inputs/American_General"), r"src/" => "")))
 
 open("src/outputs/alzprods.json", "w") do io
     JSON3.pretty(io, alzprods)

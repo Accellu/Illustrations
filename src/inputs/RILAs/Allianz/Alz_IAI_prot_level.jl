@@ -1,16 +1,15 @@
 using JSON3, JSON, CSV, DataFrames
 
-prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/Allianz/alz_iai_perf_level.csv") |> DataFrame)))
+prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/RILAs/Allianz/alz_iai_prot_level.csv") |> DataFrame)))
 
 gf = Dict(:Growth_Function => :allianz_account)
 yf = Dict(:Income_Function => :allianz_level)
-rfg = Dict(:Return_Function => :cap_buff)
+rfg = Dict(:Return_Function => :cap_floor)
 rfy = Dict(:Income_Return_Function => :cap_floor)
 f = Dict(:Fees => Dict(:account => 0.0195))
 s = zeros(length(prd[:Income]))
 s = Dict(:Rollup => s)
 w = Dict(:W => 0.0745)
-buff = Dict(:Buffer => 0.1)
 
-Alz_IAI_perf_Level = Dict(:Alz_IAI_perf_Level => merge(prd, gf, yf, f, s, w, 
+Alz_IAI_prot_Level = Dict(:Alz_IAI_prot_Level => merge(prd, gf, yf, f, s, w, 
     rfg, rfy))

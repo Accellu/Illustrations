@@ -1,6 +1,6 @@
 using JSON3, JSON, CSV, DataFrames
 
-prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/Brighthouse/Shield_Level_Pay_Plus_Market_Growth.csv") |> DataFrame)))
+prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/RILAs/Brighthouse/Shield_Level_Pay_Plus_Market_Growth.csv") |> DataFrame)))
 
 gf = Dict(:Growth_Function => :brighthouse_simple)
 yf = Dict(:Income_Function => :brighthouse_level)
