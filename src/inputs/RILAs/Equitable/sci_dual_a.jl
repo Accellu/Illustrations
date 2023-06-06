@@ -10,4 +10,4 @@ s = Dict(:Rollup => prd[:Rollup])
 w = Dict(:W => 0.05)
 inc = Dict(:inc => 0.001)
 
-sci_a = Dict(:sci_a => merge(prd, gf, yf, f, s, w, rf, inc))
+sci_dual_a = Dict(:sci_dual_a => merge(prd, gf, yf, f, s, w, rf, inc))
