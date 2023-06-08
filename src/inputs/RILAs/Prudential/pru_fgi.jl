@@ -8,5 +8,7 @@ rf = Dict(:Return_Function => :step_buff)
 f = Dict(:Fees => Dict(:rider => 0.015))
 s = Dict(:Rollup => zeros(length(prd[:Account])))
 w = Dict(:W => 0.065)
+step = Dict(:step => 0.115)
+par = Dict(:par => 0.8)
 
-pru_fgi = Dict(:pru_fgi => merge(prd, gf, yf, f, s, w, rf))
+pru_fgi = Dict(:pru_fgi => merge(prd, gf, yf, f, s, w, rf, step, par))
