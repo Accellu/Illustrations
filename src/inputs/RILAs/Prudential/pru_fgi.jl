@@ -2,8 +2,8 @@ using JSON3, JSON, CSV, DataFrames
 
 prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/RILAs/Prudential/FlexGuard_Income_Steprate.csv") |> DataFrame)))
 
-gf = Dict(:Growth_Function => :prudnetial_account)
-yf = Dict(:Income_Function => :prudnetial_level)
+gf = Dict(:Growth_Function => :prudential_account)
+yf = Dict(:Income_Function => :prudential_level)
 rf = Dict(:Return_Function => :step_buff)
 f = Dict(:Fees => Dict(:rider => 0.015))
 s = Dict(:Rollup => zeros(length(prd[:Account])))

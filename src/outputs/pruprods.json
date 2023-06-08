@@ -37,7 +37,7 @@
             1,
             1
         ],
-        "Growth_Function": "prudnetial_account",
+        "Growth_Function": "prudential_account",
         "Surrender": [
             100000,
             96976,
@@ -368,7 +368,7 @@
             0,
             0
         ],
-        "Income_Function": "prudnetial_level",
+        "Income_Function": "prudential_level",
         "W": 0.065
     }
 }
