@@ -5,7 +5,7 @@ prd = copy(JSON3.read(JSON.json(CSV.File("src/inputs/RILAs/Prudential/FlexGuard_
 gf = Dict(:Growth_Function => :prudential_account)
 yf = Dict(:Income_Function => :prudential_level)
 rf = Dict(:Return_Function => :step_buff)
-f = Dict(:Fees => Dict(:rider => 0.015))
+f = Dict(:Fees => merge(Dict(:rider => 0.0145), Dict(:account => 0.0145)))
 s = Dict(:Rollup => zeros(length(prd[:Account])))
 w = Dict(:W => 0.065)
 step = Dict(:step => 0.115)

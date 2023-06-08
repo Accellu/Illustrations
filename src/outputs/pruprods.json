@@ -2,7 +2,8 @@
     "pru_fgi": {
         "par": 0.8,
         "Fees": {
-            "rider": 0.015
+            "account": 0.0145,
+            "rider": 0.0145
         },
         "Return_Function": "step_buff",
         "Schedule": [
